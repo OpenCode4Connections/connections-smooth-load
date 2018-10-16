@@ -8,9 +8,12 @@
       "name": "Smooth Loader",
       "type": "com.ibm.customizer.ui",
       "payload": {
-        "include-files": ["smoothLoad/smoothLoad.js", "smoothLoad/smoothLoad.css"]
+        "include-files": ["smoothLoad/smoothLoad.js", "smoothLoad/smoothLoad.css"],
+        "include-repo": {
+				"name": "connections-smooth-load"
+			}
       },
-      "path": "global"
+      "path": "contacts"
     }
   ]
 }
